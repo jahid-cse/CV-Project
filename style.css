@@ -1,0 +1,164 @@
+
+*{
+
+    mirgin: 0;
+    padding: 0;
+}
+
+body{
+
+background-color:gray;
+font-family: 'Dancing Script', cursive;
+
+}
+.container{
+
+    max-width: 1000px;
+    background-color: rgb(66, 110, 108);
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header{
+
+
+}
+
+.profile-image{
+
+    width: 100px;
+    height: 120px;
+    border: 3px solid white;
+    border-radius: 50%;
+    float: left;
+
+}
+
+.header-bio{
+
+    float: left;
+    padding: 20 px;
+    margin-left: 20px; /* margin left/right/top/bottom use kore content ar charidike jayga newa hoy*/
+
+}
+
+h1,h2,h3,h4,h5,h6{
+
+    color: rgb(54, 177, 54);
+    
+
+}
+.header-contact{
+
+    float:right;
+    padding: 30px;
+}
+.header-contact a{
+
+    text-decoration: none;
+    color: rgb(97, 172, 172);
+    font-weight: bold;
+
+}
+.header-contact a:hover{
+
+    text-decoration: underline;
+    color: tomato;
+}
+.div-clear{
+    clear: both;
+}
+
+hr{
+    border: solid black 3px;
+    width: 100%;
+    margin: 20-x auto;
+    border-bottom: none;
+    
+}
+
+/*==============
+ personal section 
+ ===============*/
+
+#personal-section{
+
+}
+.content{
+    margin-bottom: 30px;
+}
+
+.left-div{
+    width: 30%;
+    float: left;
+}
+
+.right-div{
+    width: 70%;
+    float: left;
+}
+
+.common-hr{
+    border: solid black 1px;
+    border-bottom: none;
+    width: 100%;
+    margin: 20px auto;
+}
+
+/*============
+ Education section Start
+ ==============*/
+
+.edu-template-left{
+    float: left;
+    width: 45%;
+}
+.edu-template-left p{
+    color: black;
+}
+.edu-template-left a:hover{
+    text-decoration: underline;
+    color: rgb(8, 65, 27);
+
+}
+
+.edu-template-right{
+    float:right;
+    width: 45%;
+    
+}
+.edu-template-right p{
+    color: black;
+}
+.edu-template-right a:hover{
+    text-decoration: underline;
+    color: rgb(8, 61, 15);
+
+}
+
+/* ==========
+  Footer Start
+  ============*/
+
+.footer-container{
+    background-color: black;
+    text-align-last: center;
+    padding: 10px;
+}
+
+.footer-container a{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+
+.footer-container a:hover{
+
+    text-decoration: underline;
+    color: tomato;
+}
+
+.footer-container p{
+    color: white;
+    margin-top:20px;
+}
